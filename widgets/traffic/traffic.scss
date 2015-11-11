@@ -1,0 +1,30 @@
+
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #CC3333;
+
+$title-color:       #333;
+$moreinfo-color:    #333;
+
+$traffic-background:  darken($background-color, 25%);
+
+// ----------------------------------------------------------------------------
+// Widget-traffic styles
+// ----------------------------------------------------------------------------
+.widget-traffic {
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  iframe {
+    width: 382px;
+    height: 330px;
+    border: 0;
+    padding: 0;
+    margin-left: 0px;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+}

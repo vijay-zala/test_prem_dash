@@ -1,0 +1,30 @@
+
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #CC3333;
+
+$title-color:       #333;
+$moreinfo-color:    #333;
+
+$radar-background:  darken($background-color, 25%);
+
+// ----------------------------------------------------------------------------
+// Widget-radar styles
+// ----------------------------------------------------------------------------
+.widget-radar {
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  iframe {
+    width: 562px;
+    height: 580px;
+    border: 0;
+    padding: 0;
+    margin-left: 40px;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+}

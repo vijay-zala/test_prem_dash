@@ -1,0 +1,31 @@
+
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #CC3333;
+
+$title-color:       #333;
+$moreinfo-color:    #333;
+
+$support-background:  darken($background-color, 25%);
+
+// ----------------------------------------------------------------------------
+// Widget-support styles
+// ----------------------------------------------------------------------------
+.widget-support{
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  iframe {
+    width:242px;
+    height: 450px;
+    border: 0;
+    padding: 0;
+    margin-left: 0px;
+    margin-top: 30px;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+}

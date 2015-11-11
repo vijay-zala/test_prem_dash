@@ -1,0 +1,19 @@
+<% content_for :title do %>Premonition.io<% end %>
+<div class="gridster">
+  <ul>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+           <div data-id="iframeId1" data-view="Traffic" data-src="http://needs.tech/preminition/prince_high.html"data-title="Prince HighWay" style="background-color:#3fa9f5"></div>
+   </li>
+   <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+          <div data-id="iframeId1" data-view="Radar" data-src="http://needs.tech/preminition/radar.html" data-title="128 km Sydney (Terrey Hills) Radar Loop" style="background-color:#3fa9f5"></div>
+  </li>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+          <div data-id="iframeId1" data-view="Traffic" data-src="http://needs.tech/preminition/m4.html"  data-title="M4" style="background-color:#3fa9f5"></div>
+   </li>
+
+
+
+ </ul>
+ <center><div style="font-size: 12px">Try this: curl -d '{"auth_token": "YOUR_AUTH_TOKEN","src": "http://needs.tech/"}' http://0.0.0.0:3030/widgets/iframeId1</div></center>
+ </div>
